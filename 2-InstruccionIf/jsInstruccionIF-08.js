@@ -1,8 +1,16 @@
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	var edad;
+	var estado;
+	edad=txtIdEdad.value;
+	estado=estadoCivil.value;
+	edad=parseInt(edad);
+
+	if (edad>17 && estado == "Soltero")
+	{
+		alert("Es solterx y no es menor o:");
+	}
 	
-
-
-}//FIN DE LA FUNCIÓN
+	
+	
+}//By: Mica Tapia
